@@ -8,12 +8,12 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = peildo.styles.css
+stylesheets[all][] = css/peildo.styles.css
 
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = peildo.behaviors.js
+scripts[] = js/peildo.behaviors.js
 
 ; ========================================
 ; Regions

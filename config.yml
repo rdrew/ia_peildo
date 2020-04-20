@@ -1,15 +1,15 @@
 SITE:
     Local: '127.0.0.1:8888'
     Remote:
-        Url: 'https://islandimagined.ca'
+        Url: 'https://peildo.dev.islandarchives.ca'
         Path: user
 PORT: 8000
 BSREWRITE:
     Css:
-        Match: "/sites/islandimagined.ca/themes/ia_islandimagined/css/"
+        Match: "/sites/peildo.dev.islandimagined.ca/themes/ia_peildo/css/"
         Replace: "/css/"
     Js:
-        Match: "/sites/islandimagined.ca/themes/ia_islandimagined/js/"
+        Match: "/sites/peildo.dev.islandimagined.ca/themes/ia_peildo/js/"
         Replace: "/js/"
 PATHS:
     Watch:
@@ -17,11 +17,11 @@ PATHS:
       - ./css/*.css
       - ./js/*.js
     Scss:
-        Dir: sass
+        Dir: css/src
         #FileName: app.scss
         Libraries:
-            - css/libraries/guff
-            - css/libraries/typeplate
+            - css/src/libraries/guff
+            #- css/libraries/typeplate
     Css:
         Dir: css
         #FileName: app.css
@@ -30,6 +30,6 @@ PATHS:
         Dest: js
         FileName: 'ia-islandimagined.behaviors.js'
     Img:
-        Src: img/src
-        Dest: img
+        Src: images/src
+        Dest: images
 
