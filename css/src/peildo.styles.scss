@@ -1,15 +1,37 @@
-.footer-logo h3 {
-      color: #f6dcbb;
-          text-transform: uppercase;
-              font-size: 16px;
-              margin-top: 1em;
-              margin-bottom: 1em;
 
+@import 'guff';
+.footer-logo h3 {
+  color: #f6dcbb;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .footer-logos {
   padding-bottom: 1em;
 }
 footer .menu a {
-      color: #f6dcbb;
+  color: #f6dcbb;
+}
 
+.lp-grid {
+  @include container;
+
+  max-width: 100%;
+}
+
+.field--name-body {
+  @include span(5);
+  p {
+    font-size: 1.2em;
+  }
+}
+.field--name-slideshow-view {
+  @include span(7);
+}
+//slideshow
+.slideshow {
+  border: 1px solid #ccc;
+  padding: 4px;
+  font-size: 1.2em;
 }

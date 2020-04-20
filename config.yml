@@ -6,10 +6,10 @@ SITE:
 PORT: 8000
 BSREWRITE:
     Css:
-        Match: "/sites/peildo.dev.islandimagined.ca/themes/ia_peildo/css/"
+        Match: "/sites/peildo.dev.islandarchives.ca/themes/ia_peildo/css/"
         Replace: "/css/"
     Js:
-        Match: "/sites/peildo.dev.islandimagined.ca/themes/ia_peildo/js/"
+        Match: "/sites/peildo.dev.islandarchives.ca/themes/ia_peildo/js/"
         Replace: "/js/"
 PATHS:
     Watch:
