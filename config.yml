@@ -28,7 +28,7 @@ PATHS:
     Js:
         Src: ./js/src/*.js
         Dest: js
-        FileName: 'ia-islandimagined.behaviors.js'
+        FileName: 'peildo.behaviors.js'
     Img:
         Src: images/src
         Dest: images
