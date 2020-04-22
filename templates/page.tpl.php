@@ -113,7 +113,7 @@ $image_path = drupal_get_path('theme', 'islandarchives') . '/images/';
     </div>
 
     <?php print render($page['sidebar_first']); ?>
-    <?php print render($page['sidebar_second']); ?>
+    <?php //print render($page['sidebar_second']); ?>
   </div>
 
   <footer class="l-footer-wrapper" role="contentinfo">
