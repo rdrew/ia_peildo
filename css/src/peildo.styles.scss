@@ -39,3 +39,9 @@ footer .menu a {
   width: 100%;
 
 }
+.collection-grid {
+  width:100%;
+  .collection-item {
+  @include span(4);
+}
+}
