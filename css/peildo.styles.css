@@ -43,4 +43,12 @@ footer .menu a {
 .page-islandora-search .l-content {
   width: 100%; }
 
+.collection-grid {
+  width: 100%; }
+  .collection-grid .collection-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 33.33333%;
+    float: left; }
+
 /*# sourceMappingURL=peildo.styles.css.map */
