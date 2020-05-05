@@ -21,15 +21,15 @@ footer .menu a {
   max-width: 1024px;
   max-width: 100%; }
 
-.field--name-body {
+.front .field--name-body {
   padding-left: 20px;
   padding-right: 20px;
   width: 41.66667%;
   float: left; }
-  .field--name-body p {
+  .front .field--name-body p {
     font-size: 1.2em; }
 
-.field--name-slideshow-view {
+.front .field--name-slideshow-view {
   padding-left: 20px;
   padding-right: 20px;
   width: 58.33333%;
