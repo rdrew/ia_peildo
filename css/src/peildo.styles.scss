@@ -20,14 +20,16 @@ footer .menu a {
   max-width: 100%;
 }
 
-.field--name-body {
-  @include span(5);
-  p {
-    font-size: 1.2em;
+.front {
+  .field--name-body {
+    @include span(5);
+    p {
+      font-size: 1.2em;
+    }
   }
-}
-.field--name-slideshow-view {
-  @include span(7);
+  .field--name-slideshow-view {
+    @include span(7);
+  }
 }
 //slideshow
 .slideshow {
