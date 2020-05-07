@@ -24,13 +24,12 @@
  * @ingroup views_templates
  */
 ?>
-<?php foreach ($fields as $id => $field): ?>
-  <?php if (!empty($field->separator)): ?>
-    <?php print $field->separator; ?>
-  <?php endif; ?>
-
-  <?php print $field->wrapper_prefix; ?>
-    <?php print $field->label_html; ?>
-    <?php print $field->content; ?>
-  <?php print $field->wrapper_suffix; ?>
-<?php endforeach; ?>
+<!-- top  -->
+<h4>
+  <?php print $fields['dc.title']->content; ?>
+</h4>
+<audio controls preload="metadata">
+  <source src="https://peildo.dev.islandarchives.ca/islandora/object/<?php print $fields['PID']->raw; ?>/datastream/PROXY_MP3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<!-- bottom  -->
