@@ -728,6 +728,13 @@ div#large-visualization {
   7. Vendors
 */
 /*# sourceMappingURL=app.css.map */
+.bio-cards h3, .bio-cards h4 {
+  font-size: 1.3rem; }
+
+.bio-cards img {
+  width: 100%;
+  height: auto; }
+
 .footer-logo h3 {
   color: #f6dcbb;
   text-transform: uppercase;
