@@ -24,13 +24,10 @@
  * @ingroup views_templates
  */
 ?>
-<?php foreach ($fields as $id => $field): ?>
-  <?php if (!empty($field->separator)): ?>
-    <?php print $field->separator; ?>
-  <?php endif; ?>
-
-  <?php print $field->wrapper_prefix; ?>
-    <?php print $field->label_html; ?>
-    <?php print $field->content; ?>
-  <?php print $field->wrapper_suffix; ?>
-<?php endforeach; ?>
+		{
+			"name": "<?php print $fields['mods_titleInfo_subTitle_mt']->content; ?>",
+			"artist": "<?php print $fields['dc.title']->content; ?>",
+			"album": "We Are to Answer",
+			"url": "https://peildo.dev.islandarchives.ca/islandora/object/<?php print $fields['PID']->raw; ?>/datastream/PROXY_MP3",
+			"cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg"
+		},
