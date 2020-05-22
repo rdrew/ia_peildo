@@ -1,0 +1,45 @@
+//@format
+.bio-cards {
+}
+
+.bio-cards .view-content {
+  .bio-card {
+    h3,
+    h4 {
+      font-size: 1rem;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    @include col(6);
+    @include breakpoint($tablet) {
+      @include col(4);
+    }
+    @include breakpoint($desktop) {
+      @include col(2);
+    }
+  }
+  @include col-container();
+  max-width: 100%;
+}
+.islandora-basic-image-object {
+  @include col-container();
+  max-width: 100%;
+  .islandora-basic-image-content-wrapper {
+    @include breakpoint($desktop) {
+      @include col(4);
+    }
+    img {
+      width: 100%;
+    }
+    .islandora-basic-image-content {
+      float: none;
+    }
+  }
+  .islandora-basic-image-metadata {
+    @include breakpoint($desktop) {
+      @include col(8);
+    }
+  }
+}

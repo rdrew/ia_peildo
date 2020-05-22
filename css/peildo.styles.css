@@ -728,6 +728,70 @@ div#large-visualization {
   7. Vendors
 */
 /*# sourceMappingURL=app.css.map */
+.bio-cards .view-content {
+  width: 100%;
+  text-align: justify !important;
+  text-justify: distribute-all-lines;
+  font-size: 0 !important;
+  max-width: 1024px;
+  max-width: 100%; }
+  .bio-cards .view-content .bio-card {
+    width: 48.53516%;
+    vertical-align: top;
+    display: inline-block; }
+    .bio-cards .view-content .bio-card h3,
+    .bio-cards .view-content .bio-card h4 {
+      font-size: 1rem; }
+    .bio-cards .view-content .bio-card img {
+      width: 100%;
+      height: auto; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .bio-cards .view-content .bio-card {
+        width: 31.86849%;
+        vertical-align: top;
+        display: inline-block; } }
+    @media (min-width: 1024px) {
+      .bio-cards .view-content .bio-card {
+        width: 15.20182%;
+        vertical-align: top;
+        display: inline-block; } }
+  .bio-cards .view-content > * {
+    text-align: left;
+    font-size: 1rem; }
+  .bio-cards .view-content:after {
+    content: '';
+    display: inline-block;
+    width: 100%; }
+
+.islandora-basic-image-object {
+  width: 100%;
+  text-align: justify !important;
+  text-justify: distribute-all-lines;
+  font-size: 0 !important;
+  max-width: 1024px;
+  max-width: 100%; }
+  .islandora-basic-image-object > * {
+    text-align: left;
+    font-size: 1rem; }
+  .islandora-basic-image-object:after {
+    content: '';
+    display: inline-block;
+    width: 100%; }
+  @media (min-width: 1024px) {
+    .islandora-basic-image-object .islandora-basic-image-content-wrapper {
+      width: 31.86849%;
+      vertical-align: top;
+      display: inline-block; } }
+  .islandora-basic-image-object .islandora-basic-image-content-wrapper img {
+    width: 100%; }
+  .islandora-basic-image-object .islandora-basic-image-content-wrapper .islandora-basic-image-content {
+    float: none; }
+  @media (min-width: 1024px) {
+    .islandora-basic-image-object .islandora-basic-image-metadata {
+      width: 65.20182%;
+      vertical-align: top;
+      display: inline-block; } }
+
 .footer-logo h3 {
   color: #f6dcbb;
   text-transform: uppercase;
