@@ -15,7 +15,6 @@ div#amplitude-player {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
   max-width: 1440px; }
 
 /* Small only */
@@ -36,8 +35,7 @@ div#amplitude-player {
 div#amplitude-left {
   padding: 0px;
   border-right: 1px solid #CFD8DC;
-  width: 50%;
-  display: flex;
+  width: 100%;
   flex-direction: column; }
 
 div#amplitude-left img.album-art {
@@ -65,8 +63,6 @@ div#amplitude-left div#player-left-bottom div#volume-container:after {
 div#amplitude-right {
   padding: 0px;
   overflow-y: scroll;
-  width: 50%;
-  display: flex;
   flex-direction: column; }
 
 div#amplitude-right div.song {
