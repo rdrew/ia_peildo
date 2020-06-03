@@ -452,3 +452,6 @@ Amplitude.init({
 });
 document.getElementById('large-visualization').style.height = document.getElementById('album-art').offsetWidth + 'px';
 </script>
+<?php
+ print views_embed_view('peildo_audio_gallery', 'json_list');
+?>
