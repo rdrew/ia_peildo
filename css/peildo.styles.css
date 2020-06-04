@@ -832,4 +832,10 @@ footer .menu a {
     width: 33.33333%;
     float: left; }
 
+.abbreviations {
+  float: right; }
+  .abbreviations a {
+    text-transform: uppercase;
+    font-size: 1.1rem; }
+
 /*# sourceMappingURL=peildo.styles.css.map */
