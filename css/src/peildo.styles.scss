@@ -56,3 +56,6 @@ footer .menu a {
     font-size: 1.1rem;
   }
 }
+#BookReader nav:not(.mm-menu) {
+  display: none;
+}

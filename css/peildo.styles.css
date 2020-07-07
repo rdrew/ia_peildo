@@ -862,4 +862,7 @@ footer .menu a {
     text-transform: uppercase;
     font-size: 1.1rem; }
 
+#BookReader nav:not(.mm-menu) {
+  display: none; }
+
 /*# sourceMappingURL=peildo.styles.css.map */
