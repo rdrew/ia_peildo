@@ -23,11 +23,14 @@
  *
  * @ingroup views_templates
  */
+$originalDate = $fields['mods_originInfo_dateIssued_s']->raw;
+$newDate = date("F d, Y", strtotime($originalDate));
 ?>
 <!-- top  -->
-<h4>
-  <?php print $fields['dc.title']->content; ?>
-</h4>
+<div class="player_title">
+  <?php //print $fields['mods_originInfo_dateIssued_s']->content; ?>
+  <?php print $newDate; ?>
+</div>
 <audio controls preload="metadata">
   <source src="https://peildo.dev.islandarchives.ca/islandora/object/<?php print $fields['PID']->raw; ?>/datastream/PROXY_MP3" type="audio/mpeg">
 Your browser does not support the audio element.

@@ -10,6 +10,7 @@
 
 //image path
 $image_path = drupal_get_path('theme', 'islandarchives') . '/images/';
+$image_path_ldo = drupal_get_path('theme', 'ia_peildo') . '/images/';
 
 
 ?>
@@ -57,7 +58,7 @@ $image_path = drupal_get_path('theme', 'islandarchives') . '/images/';
     <!--site branding-->
     <div class="site-name__container">
       <div class="site-name__icon">
-        <?php echo file_get_contents( $image_path . "compass.svg"); ?>
+        <?php echo file_get_contents( $image_path_ldo . "scales.svg"); ?>
       </div>
 
       <?php if ($site_name): ?>
@@ -67,7 +68,7 @@ $image_path = drupal_get_path('theme', 'islandarchives') . '/images/';
       <?php endif; ?>
 
       <div class="site-name__icon">
-        <?php echo file_get_contents( $image_path . "compass.svg"); ?>
+        <?php echo file_get_contents( $image_path_ldo . "scales.svg"); ?>
       </div>
     </div>
     <?php if ($site_slogan): ?>
