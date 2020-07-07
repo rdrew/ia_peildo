@@ -865,4 +865,7 @@ footer .menu a {
 #BookReader nav:not(.mm-menu) {
   display: none; }
 
+nav.topnav {
+  display: flex; }
+
 /*# sourceMappingURL=peildo.styles.css.map */
