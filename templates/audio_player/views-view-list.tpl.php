@@ -10,7 +10,6 @@
  * @ingroup views_templates
  */
 ?>
-<h1>view-view-list.tpl.php</h1>
 <?php print $wrapper_prefix; ?>
   <?php if (!empty($title)) : ?>
     <h3><?php print $title; ?></h3>
