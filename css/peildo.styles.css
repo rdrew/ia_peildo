@@ -3,6 +3,9 @@
   display: table;
   clear: both; }
 
+.audio_player {
+  margin-bottom: 2rem; }
+
 .view-peildo-audio-gallery h3 {
   display: none; }
 
@@ -867,5 +870,14 @@ footer .menu a {
 
 nav.topnav {
   display: flex; }
+
+header.l-header {
+  text-align: center;
+  padding-bottom: 0;
+  border-bottom: 4px double;
+  border-top: 4px double; }
+
+.front .pageTitle {
+  display: none; }
 
 /*# sourceMappingURL=peildo.styles.css.map */

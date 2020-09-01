@@ -1,15 +1,15 @@
 SITE:
     Local: '127.0.0.1:8888'
     Remote:
-        Url: 'https://peildo.dev.islandarchives.ca'
+        Url: 'https://peildo.ca'
         Path: user
 PORT: 8000
 BSREWRITE:
     Css:
-        Match: "/sites/peildo.dev.islandarchives.ca/themes/ia_peildo/css/"
+        Match: "/sites/peildo.ca/themes/ia_peildo/css/"
         Replace: "/css/"
     Js:
-        Match: "/sites/peildo.dev.islandarchives.ca/themes/ia_peildo/js/"
+        Match: "/sites/peildo.ca/themes/ia_peildo/js/"
         Replace: "/js/"
 PATHS:
     Watch:

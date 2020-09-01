@@ -62,3 +62,12 @@ footer .menu a {
 nav.topnav {
   display: flex;
 }
+header.l-header {
+  text-align: center;
+  padding-bottom: 0;
+  border-bottom: 4px double;
+  border-top: 4px double;
+}
+.front .pageTitle {
+  display: none;
+}
