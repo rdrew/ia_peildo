@@ -27,12 +27,19 @@ $originalDate = $fields['mods_originInfo_dateIssued_s']->raw;
 $newDate = date("F d, Y", strtotime($originalDate));
 ?>
 <!-- top  -->
-<div class="player_title">
-  <?php //print $fields['mods_originInfo_dateIssued_s']->content; ?>
-  <?php print $newDate; ?>
-</div>
-<audio controls preload="metadata">
-  <source src="https://peildo.dev.islandarchives.ca/islandora/object/<?php print $fields['PID']->raw; ?>/datastream/PROXY_MP3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+<section class="audio_player">
+  <div class="player_title">
+    <?php //print $fields['mods_originInfo_dateIssued_s']->content; ?>
+    <div class="session_date">
+      <?php print $newDate; ?>
+    </div>
+    <div class="session_number">
+    <?php print $fields['mods_titleInfo_subTitle_mt']->content; ?>
+    </div>
+  </div>
+  <audio controls preload="metadata">
+    <source src="https://peildo.dev.islandarchives.ca/islandora/object/<?php print $fields['PID']->raw; ?>/datastream/PROXY_MP3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+</section>
 <!-- bottom  -->
