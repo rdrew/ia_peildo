@@ -1,0 +1,21 @@
+.dropdown-content input[type='text'] {
+  /* max-width: 37.5rem; */
+  padding-left: 1rem;
+  margin-bottom: 0;
+  height: 0;
+  padding: 0;
+  width: 400px;
+  padding-left: 1rem;
+  font-size: 3rem;
+  border: 0px;
+  transition: all 0.4s linear;
+}
+.show .dropdown-content input[type='text'] {
+  height: 3rem;
+  padding: initial;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 4px double;
+  border-top: 4px double;
+  width: 400px;
+}
