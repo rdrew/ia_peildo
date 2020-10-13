@@ -832,6 +832,20 @@ div#large-visualization {
   border-top: 4px double;
   width: 400px; }
 
+.view--journals a {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  display: block; }
+  .view--journals a::before {
+    content: '- '; }
+
+.view--journals .view-header {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+html {
+  font-size: 16px; }
+
 .footer-logo h3 {
   color: #f6dcbb;
   text-transform: uppercase;
